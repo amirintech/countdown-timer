@@ -175,7 +175,7 @@ body {
 @media screen and (min-width: 768px) {
   /* Header */
   .header {
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
   }
   .title {
     font-size: 2.25rem;
