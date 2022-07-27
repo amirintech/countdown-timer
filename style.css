@@ -174,12 +174,15 @@ body {
 
 @media screen and (min-width: 768px) {
   /* Header */
+  .header {
+    padding-bottom: 11rem;
+  }
   .title {
     font-size: 2.2rem;
   }
 
   /* Counter */
-  .counter {
+  .counters-container {
     gap: 3rem;
   }
 
