@@ -175,7 +175,7 @@ body {
 @media screen and (min-width: 768px) {
   /* Header */
   .header {
-    padding-top: 13rem;
+    padding-top: 13.5rem;
     padding-bottom: 7.5rem;
   }
   .title {
