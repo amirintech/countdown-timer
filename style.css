@@ -175,10 +175,10 @@ body {
 @media screen and (min-width: 768px) {
   /* Header */
   .header {
-    padding-bottom: 11rem;
+    padding-bottom: 10rem;
   }
   .title {
-    font-size: 2.4rem;
+    font-size: 2.25rem;
   }
 
   /* Counter */
