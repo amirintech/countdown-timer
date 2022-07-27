@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Launch countdown timer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JavaScript -->
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">We&apos;re launching soon</h1>
+    </header>
+
+    <!-- Counter -->
+    <main class="counters-container" id="counter">
+      <div class="counter">
+        <div class="counter-box">
+          <span class="counter-box__value" id="days"></span>
+          <div class="counter-box__line-through"></div>
+        </div>
+        <span class="counter-box__title">Days</span>
+      </div>
+
+      <div class="counter">
+        <div class="counter-box">
+          <span class="counter-box__value" id="hours"></span>
+          <div class="counter-box__line-through"></div>
+        </div>
+        <span class="counter-box__title">Hours</span>
+      </div>
+
+      <div class="counter">
+        <div class="counter-box">
+          <span class="counter-box__value" id="minutes"></span>
+          <div class="counter-box__line-through"></div>
+        </div>
+        <span class="counter-box__title">Minutes</span>
+      </div>
+
+      <div class="counter">
+        <div class="counter-box">
+          <span class="counter-box__value" id="seconds"></span>
+          <div class="counter-box__line-through"></div>
+        </div>
+        <span class="counter-box__title">Seconds</span>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="contact">
+        <a href="#">
+          <svg class="icon">
+            <use href="./images/sprite.svg#icon-facebook"></use>
+          </svg>
+        </a>
+
+        <a href="#">
+          <svg class="icon">
+            <use href="./images/sprite.svg#icon-pinterest"></use>
+          </svg>
+        </a>
+
+        <a href="#">
+          <svg class="icon">
+            <use href="./images/sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+    <img class="hills-pattern" src="./images//pattern-hills.svg" alt="" />
+  </body>
+</html>
