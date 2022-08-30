@@ -8,7 +8,7 @@ const SECONDS_PER_MINUTE = 60;
 const MINUTES_PER_HOUR = 60;
 const HOURS_PER_DAY = 24;
 
-const DATE = new Date("11 Aug 2022 00:00:00 GMT"); // My birthday :)
+const DATE = new Date("24 Sep 2022 00:00:00 GMT");
 
 const interval = setInterval(updateCounters, 1000);
 
